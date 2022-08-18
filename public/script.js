@@ -31,10 +31,10 @@ const toggleSubMenu = () => {
     const expandIcon =  document.getElementsByClassName('expand-collapse-icon')[2];
     if (subMenu.classList.contains('inactive-li')){
         subMenu.classList.remove('inactive-li');
-        expandIcon.classList.remove('rotate');
+        expandIcon.classList.add('rotate');
     }
     else{
         subMenu.classList.add('inactive-li');
-        expandIcon.classList.add('rotate');
+        expandIcon.classList.remove('rotate');
     }
 }
