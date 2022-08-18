@@ -189,14 +189,13 @@ main {
 }
 
 
-
-
 .nav {
   display: grid;  
   grid-row: 2/5;
   grid-column: 1/2;
   transform: translateY(20%);
   transition:  transform 1s ease-in;
+  filter: drop-shadow(0 0 0.1rem var(--color-very-dark-blue));
 }
 
 
@@ -277,15 +276,11 @@ hr {
 }
 
 
-
 .inactive {
   /* display: none; */
   transform: translateY(-1000px);
 }
 
-.inactive-li {
-  display: none;
-}
 
 /* menu icons */
 .menu-icons {
@@ -303,4 +298,8 @@ hr {
 
 .visible-icon {
   opacity: 1;
+}
+
+.submenu {
+  display: none;
 }
