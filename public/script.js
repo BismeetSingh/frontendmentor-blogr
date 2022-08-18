@@ -28,10 +28,13 @@ const toggleNavMenu = ()=>{
 
 const toggleSubMenu = () => {
     const subMenu = document.getElementsByClassName('submenu')[0];
+    const expandIcon =  document.getElementsByClassName('expand-collapse-icon')[2];
     if (subMenu.classList.contains('inactive-li')){
         subMenu.classList.remove('inactive-li');
+        expandIcon.classList.remove('rotate');
     }
     else{
         subMenu.classList.add('inactive-li');
+        expandIcon.classList.add('rotate');
     }
 }

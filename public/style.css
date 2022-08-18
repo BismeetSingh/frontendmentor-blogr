@@ -271,9 +271,9 @@ hr {
   color: gray;
 }
 
-.nav-li-content:hover .expand-collapse-icon{
+/* .nav-li-content:hover .expand-collapse-icon{
   transform: rotate(180deg);
-}
+} */
 /* 
 .nav-li-content:hover ~.inactive-li {
   display: block;
@@ -308,6 +308,6 @@ hr {
   display: none;
 }
 
-.icon-up {
-  
+.rotate {
+  transform: rotate(180deg);
 }
