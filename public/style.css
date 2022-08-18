@@ -166,6 +166,7 @@ main {
   font-weight: 400;
   color: var(--color-very-dark-grayish-blue);
   margin: 0.5rem;
+  line-height:2rem;
 }
 
 .infrastructure {
