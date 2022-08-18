@@ -25,6 +25,12 @@
 
 }
 
+body {
+  display: grid;
+  place-items: center;
+  max-width: 100%;
+}
+
 button{
   font-size: 1.2rem;
   font-weight: 700;
