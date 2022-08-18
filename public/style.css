@@ -139,6 +139,7 @@ main {
 .content {
   flex-direction: column;
   row-gap: 2rem;
+  display: flex;
 
 }
 
@@ -147,21 +148,24 @@ main {
   align-items: center;
   display: flex;
   justify-content: center;
+  row-gap: 1rem;
 }
 
 .illustration-heading {
   text-align: center;
-  font-family: var(--ubuntu);
-  font-size: 3rem;
-  font-weight: 400;
+  font-family: var(--overpass);
+  font-size: 2rem;
+  font-weight: 600;
 
 }
 
 .illustration-content {
   text-align: center;
-  font-size: 1.5rem;
-  font-family: var(--overpass);
-  font-weight: 300;
+  font-size: 1rem;
+  font-family: var(--ubuntu);
+  font-weight: 400;
+  color: var(--color-very-dark-grayish-blue);
+  margin: 0.5rem;
 }
 
 .infrastructure {
@@ -308,6 +312,11 @@ hr {
   display: none;
 }
 
+/* .nav-li-content {
+  transition:  rotate 5s ease-in;
+} */
+
 .rotate {
   transform: rotate(180deg);
+ 
 }
