@@ -274,10 +274,10 @@ hr {
 .nav-li-content:hover .expand-collapse-icon{
   transform: rotate(180deg);
 }
-
-.nav-li-content:hover ~.submenu {
+/* 
+.nav-li-content:hover ~.inactive-li {
   display: block;
-}
+} */
 
 
 .inactive {
@@ -304,6 +304,10 @@ hr {
   opacity: 1;
 }
 
-.submenu {
+.inactive-li {
   display: none;
+}
+
+.icon-up {
+  
 }

@@ -25,3 +25,13 @@ const toggleNavMenu = ()=>{
         
     }
 }
+
+const toggleSubMenu = () => {
+    const subMenu = document.getElementsByClassName('submenu')[0];
+    if (subMenu.classList.contains('inactive-li')){
+        subMenu.classList.remove('inactive-li');
+    }
+    else{
+        subMenu.classList.add('inactive-li');
+    }
+}
