@@ -29,6 +29,7 @@ body {
   display: grid;
   place-items: center;
   max-width: 100%;
+  min-height: 100vh;
 }
 
 button{
@@ -46,10 +47,6 @@ button{
   
 }
 
-body{
-  min-height: 100vh;
-  min-width: 100%;
-}
 .container {
   display: flex;
   row-gap: 4.5rem;
