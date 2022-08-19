@@ -411,9 +411,13 @@ footer {
   color: var(--color-grayish-blue);
   font-family: var(--overpass);
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 2rem;
   text-align: center;
 
+}
+
+.footer-link:hover{
+  text-decoration: underline;
 }
 
 .footer-heading {
